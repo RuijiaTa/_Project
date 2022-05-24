@@ -88,7 +88,6 @@ def analyse_data(price):
     plt.show()
     return
 
-
 analyse_data(df)
 
 ##############################################################
