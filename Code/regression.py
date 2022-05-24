@@ -42,7 +42,6 @@ print("Y_test.shape:", Y_test.shape)
 Step2: Analyse the data set. 
 '''
 
-
 def analyse_data(price):
     ### Analyse the content of the data. Check the number of data, the mean, std, min,max...
     print("Analyse the Data Set：")
