@@ -37,10 +37,10 @@ print("X_test.shape:", X_test.shape)
 print("Y_test.shape:", Y_test.shape)
 
 ##############################################################
-
 '''
 Step2: Analyse the data set. 
 '''
+
 
 def analyse_data(price):
     ### Analyse the content of the data. Check the number of data, the mean, std, min,max...
@@ -87,6 +87,7 @@ def analyse_data(price):
     plt.title("Correlation HeatMap")
     plt.show()
     return
+
 
 analyse_data(df)
 
